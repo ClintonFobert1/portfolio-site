@@ -1,0 +1,148 @@
+@import "css/header.css";
+@import "css/footer.css";
+@import "css/home.css";
+@import "css/internal.css";
+@import "css/font.css";
+
+html,  body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+p {
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+a {
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.large {
+    font-size: 75px;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.overlay {
+    background-color: rgba(40, 75, 99, 50%);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-btn {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #353535;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.main-btn:hover {
+    background-color: #353535;
+    color: #fff;
+    transition: .3s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20%);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }   
+
+ @keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(20%);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }   
+
+ /* MEDIA QUERIES
+-------------------------------------------- */
+@media (max-width: 600px) {
+    .large {
+        font-size: 60px;
+    }
+}

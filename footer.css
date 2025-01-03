@@ -1,0 +1,30 @@
+footer {
+    background-color: #353535;
+    color: #fff;
+    padding: 75px 0;
+}
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.footer-flex .animate {
+    animation: 1.5s fadeInUp;
+}
+
+.footer-flex nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-flex nav a:hover {
+    color: #3C6E71
+}
+
+.footer-flex svg:hover path{
+    fill: #3C6E71 !important;
+    transition: .3s;
+}
