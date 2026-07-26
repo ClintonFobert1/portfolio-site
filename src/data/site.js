@@ -9,7 +9,7 @@ export const site = {
   heroLines: ['Software', 'Engineered', 'With Machines'],
   intro:
     'AI prompt engineer and software developer. I use AI to design and ship apps, dashboards, and automation — then do the unglamorous manual work that makes them real: backend connections, databases, and tools teams actually use every day.',
-  email: 'hello@fobertwebsites.com',
+  email: 'hello@fobertdigitaldevelopment.com',
   availability: 'Open to interesting problems',
   socials: [
     { label: 'GitHub', href: 'https://github.com/', handle: '@clintonfobert' },

@@ -9,7 +9,7 @@ import { Reveal } from '../components/Reveal'
 const timeline = [
   {
     period: '2015 — 2024',
-    title: 'Fobert Websites',
+    title: 'Fobert Digital Development',
     text: 'Independent studio. Designed, built, hosted, and maintained sites for real businesses — every role, one person.',
   },
   {

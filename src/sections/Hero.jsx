@@ -86,7 +86,7 @@ export default function Hero() {
         >
           Scroll <ArrowDown className="h-3.5 w-3.5 animate-bounce" />
         </button>
-        <p className="mono-label hidden opacity-50 sm:block">Est. fobertwebsites.com</p>
+        <p className="mono-label hidden opacity-50 sm:block">Est. fobertdigitaldevelopment.com</p>
       </motion.div>
     </section>
   )

@@ -115,9 +115,9 @@ export const products = [
     role: 'Researcher & Practitioner',
   },
   {
-    slug: 'fobert-websites',
+    slug: 'fobert-digital-development',
     plate: 'VI',
-    title: 'Fobert Websites',
+    title: 'Fobert Digital Development',
     category: 'Origin Story',
     year: '2015—2024',
     status: 'Archived',
@@ -125,7 +125,7 @@ export const products = [
     summary:
       'The independent studio where it started — designing and shipping websites for real businesses, end to end, for nearly a decade.',
     description: [
-      'Before the AI tooling and the internal platforms, there was fobertwebsites.com: a one-person studio building sites for real clients. Every part of the job — design, build, hosting, the awkward invoice email — was mine.',
+      'Before the AI tooling and the internal platforms, there was fobertdigitaldevelopment.com: a one-person studio building sites for real clients. Every part of the job — design, build, hosting, the awkward invoice email — was mine.',
       'That decade taught the things frameworks cannot: how to listen to what a business actually needs, how to ship without a team behind you, and how to keep something running for years. It is the foundation everything since is built on.',
     ],
     highlights: [
